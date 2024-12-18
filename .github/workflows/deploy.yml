@@ -25,7 +25,7 @@ jobs:
       PORT: 8080
     services:
       mongodb:
-        image: mongo/mongodb-atlas-local
+        image: mongo
         env:
           MONGODB_INITDB_ROOT_USERNAME: root
           MONGODB_INITDB_ROOT_PASSWORD: example
